@@ -19,8 +19,9 @@ You need to install all the required npm packages for the server. Run the follow
 
 ## Client NPM install
 
-You need to install all the required npm packages for the client. Run the following command in the root folder:
+You need to install all the required npm packages for the client. Run the following command in the client folder:
 
+-   `cd mern_setup_client`
 -   `npm install`
 
 # How to run
