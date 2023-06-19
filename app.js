@@ -1,6 +1,8 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const cors = require('cors');
+const config = require('config');
+const db = config.get('mongoURI');
 
 // routes
 const books = require('./routes/api/books');
@@ -8,7 +10,9 @@ const books = require('./routes/api/books');
 const app = express();
 
 // Connect Database
-connectDB();
+if (db) {
+    connectDB(db);
+}
 
 // cors
 app.use(cors({ origin: true, credentials: true }));

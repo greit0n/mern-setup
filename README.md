@@ -21,7 +21,7 @@ You need to install all the required npm packages for the server. Run the follow
 
 You need to install all the required npm packages for the client. Run the following command in the client folder:
 
--   `cd mern_setup_client`
+-   `cd client`
 -   `npm install`
 
 # How to run
@@ -34,7 +34,7 @@ To start the server go to the root folder and run the following command:
 
 ## Client
 
-To start the client go to the `mern_setup_client` folder and run the following command:
+To start the client go to the `client` folder and run the following command:
 
 -   `npm start`
 
